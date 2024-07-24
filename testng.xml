@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="loginInfo" value="TestUser 1234 0.0.0.0"/>
+    <parameter name="filename" value="testStudents.json"/>
+    <test verbose="2" name="/Users/nikitadyuckov/Documents/GitHub/studentsFTPTests/">
+        <classes>
+            <class name="ConnectionTests"/>
+            <class name="TextEditorTests"/>
+            <class name="EmptyFileClientTests"/>
+            <class name="ClientTests"/>
+        </classes>
+    </test>
+</suite>

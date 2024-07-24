@@ -1,0 +1,1288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="81" passed="81" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-24T19:16:06Z" name="All Test Suite" finished-at="2024-07-24T19:16:14Z" duration-ms="7681">
+    <groups>
+    </groups>
+    <test started-at="2024-07-24T19:16:06Z" name="/Users/nikitadyuckov/Documents/GitHub/studentsFTPTests/" finished-at="2024-07-24T19:16:14Z" duration-ms="7681">
+      <class name="ConnectionTests">
+        <test-method signature="testReader(java.lang.String, java.lang.String)[pri:0, instance:ConnectionTests@cb644e]" started-at="2024-07-24T19:16:06Z" name="testReader" finished-at="2024-07-24T19:16:06Z" duration-ms="346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser 1234 0.0.0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testStudents.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReader -->
+        <test-method signature="testSetConnection(java.lang.String, java.lang.String)[pri:0, instance:ConnectionTests@cb644e]" started-at="2024-07-24T19:16:06Z" name="testSetConnection" finished-at="2024-07-24T19:16:07Z" duration-ms="128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser 1234 0.0.0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testStudents.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetConnection -->
+        <test-method signature="testWriter(java.lang.String, java.lang.String)[pri:0, instance:ConnectionTests@cb644e]" started-at="2024-07-24T19:16:07Z" name="testWriter" finished-at="2024-07-24T19:16:07Z" duration-ms="133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser 1234 0.0.0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testStudents.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWriter -->
+      </class> <!-- ConnectionTests -->
+      <class name="EmptyFileClientTests">
+        <test-method is-config="true" signature="getConnData(java.lang.String, java.lang.String)[pri:0, instance:EmptyFileClientTests@56ef9176]" started-at="2024-07-24T19:16:07Z" name="getConnData" finished-at="2024-07-24T19:16:07Z" duration-ms="62" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser 1234 0.0.0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testStudents.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getConnData -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:EmptyFileClientTests@56ef9176]" started-at="2024-07-24T19:16:07Z" name="restoreFile" finished-at="2024-07-24T19:16:07Z" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testGetSortedListOfStudents()[pri:1, instance:EmptyFileClientTests@56ef9176]" started-at="2024-07-24T19:16:07Z" name="testGetSortedListOfStudents" finished-at="2024-07-24T19:16:07Z" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSortedListOfStudents -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:EmptyFileClientTests@56ef9176]" started-at="2024-07-24T19:16:07Z" name="restoreFile" finished-at="2024-07-24T19:16:07Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testGetStudentInfo(java.lang.String)[pri:2, instance:EmptyFileClientTests@56ef9176]" started-at="2024-07-24T19:16:07Z" name="testGetStudentInfo" data-provider="createId" finished-at="2024-07-24T19:16:07Z" duration-ms="74" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetStudentInfo -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:EmptyFileClientTests@56ef9176]" started-at="2024-07-24T19:16:07Z" name="restoreFile" finished-at="2024-07-24T19:16:07Z" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testGetStudentInfo(java.lang.String)[pri:2, instance:EmptyFileClientTests@56ef9176]" started-at="2024-07-24T19:16:07Z" name="testGetStudentInfo" data-provider="createId" finished-at="2024-07-24T19:16:07Z" duration-ms="62" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetStudentInfo -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:EmptyFileClientTests@56ef9176]" started-at="2024-07-24T19:16:07Z" name="restoreFile" finished-at="2024-07-24T19:16:07Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testGetStudentInfo(java.lang.String)[pri:2, instance:EmptyFileClientTests@56ef9176]" started-at="2024-07-24T19:16:07Z" name="testGetStudentInfo" data-provider="createId" finished-at="2024-07-24T19:16:08Z" duration-ms="61" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetStudentInfo -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:EmptyFileClientTests@56ef9176]" started-at="2024-07-24T19:16:08Z" name="restoreFile" finished-at="2024-07-24T19:16:08Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testGetStudentInfo(java.lang.String)[pri:2, instance:EmptyFileClientTests@56ef9176]" started-at="2024-07-24T19:16:08Z" name="testGetStudentInfo" data-provider="createId" finished-at="2024-07-24T19:16:08Z" duration-ms="62" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetStudentInfo -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:EmptyFileClientTests@56ef9176]" started-at="2024-07-24T19:16:08Z" name="restoreFile" finished-at="2024-07-24T19:16:08Z" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testGetStudentInfo(java.lang.String)[pri:2, instance:EmptyFileClientTests@56ef9176]" started-at="2024-07-24T19:16:08Z" name="testGetStudentInfo" data-provider="createId" finished-at="2024-07-24T19:16:08Z" duration-ms="61" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetStudentInfo -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:EmptyFileClientTests@56ef9176]" started-at="2024-07-24T19:16:08Z" name="restoreFile" finished-at="2024-07-24T19:16:08Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testGetStudentInfo(java.lang.String)[pri:2, instance:EmptyFileClientTests@56ef9176]" started-at="2024-07-24T19:16:08Z" name="testGetStudentInfo" data-provider="createId" finished-at="2024-07-24T19:16:08Z" duration-ms="63" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetStudentInfo -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:EmptyFileClientTests@56ef9176]" started-at="2024-07-24T19:16:09Z" name="restoreFile" finished-at="2024-07-24T19:16:09Z" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testAddStudent(java.lang.String, java.lang.String)[pri:3, instance:EmptyFileClientTests@56ef9176]" started-at="2024-07-24T19:16:09Z" name="testAddStudent" data-provider="createStudentInfo" finished-at="2024-07-24T19:16:09Z" duration-ms="338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name Rosa, surname Davidson, age 19]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[id: 1, name: Rosa, surname: Davidson, age: 19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddStudent -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:EmptyFileClientTests@56ef9176]" started-at="2024-07-24T19:16:09Z" name="restoreFile" finished-at="2024-07-24T19:16:09Z" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testAddStudent(java.lang.String, java.lang.String)[pri:3, instance:EmptyFileClientTests@56ef9176]" started-at="2024-07-24T19:16:09Z" name="testAddStudent" data-provider="createStudentInfo" finished-at="2024-07-24T19:16:09Z" duration-ms="305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name Mike, surname Pankraz, age 18]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[id: 1, name: Mike, surname: Pankraz, age: 18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddStudent -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:EmptyFileClientTests@56ef9176]" started-at="2024-07-24T19:16:09Z" name="restoreFile" finished-at="2024-07-24T19:16:10Z" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testAddStudent(java.lang.String, java.lang.String)[pri:3, instance:EmptyFileClientTests@56ef9176]" started-at="2024-07-24T19:16:10Z" name="testAddStudent" data-provider="createStudentInfo" finished-at="2024-07-24T19:16:10Z" duration-ms="320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name Margarita, surname Harvey, age 20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[id: 1, name: Margarita, surname: Harvey, age: 20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddStudent -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:EmptyFileClientTests@56ef9176]" started-at="2024-07-24T19:16:10Z" name="restoreFile" finished-at="2024-07-24T19:16:10Z" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testAddStudent(java.lang.String, java.lang.String)[pri:3, instance:EmptyFileClientTests@56ef9176]" started-at="2024-07-24T19:16:10Z" name="testAddStudent" data-provider="createStudentInfo" finished-at="2024-07-24T19:16:10Z" duration-ms="322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name Nikolas, surname McAdams, age 20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[id: 1, name: Nikolas, surname: McAdams, age: 20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddStudent -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:EmptyFileClientTests@56ef9176]" started-at="2024-07-24T19:16:10Z" name="restoreFile" finished-at="2024-07-24T19:16:10Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testAddStudent(java.lang.String, java.lang.String)[pri:3, instance:EmptyFileClientTests@56ef9176]" started-at="2024-07-24T19:16:10Z" name="testAddStudent" data-provider="createStudentInfo" finished-at="2024-07-24T19:16:11Z" duration-ms="308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name Boris, surname Fedorov, age 19]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[id: 1, name: Boris, surname: Fedorov, age: 19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddStudent -->
+      </class> <!-- EmptyFileClientTests -->
+      <class name="TextEditorTests">
+        <test-method signature="testClean(java.lang.String, java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testClean" data-provider="createToClean" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ "id": 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[id:1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClean -->
+        <test-method signature="testClean(java.lang.String, java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testClean" data-provider="createToClean" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["age": 80]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[age:80]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClean -->
+        <test-method signature="testClean(java.lang.String, java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testClean" data-provider="createToClean" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["name": "Alex",]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[name:Alex]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClean -->
+        <test-method signature="testClean(java.lang.String, java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testClean" data-provider="createToClean" finished-at="2024-07-24T19:16:07Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[},]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClean -->
+        <test-method signature="testClean(java.lang.String, java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testClean" data-provider="createToClean" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["id": 1024,]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[id:1024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClean -->
+        <test-method signature="testClean(java.lang.String, java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testClean" data-provider="createToClean" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClean -->
+        <test-method signature="testIsBeginning(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testIsBeginning" data-provider="createBeginnings" finished-at="2024-07-24T19:16:07Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ {]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsBeginning -->
+        <test-method signature="testIsBeginning(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testIsBeginning" data-provider="createBeginnings" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsBeginning -->
+        <test-method signature="testIsBeginning(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testIsBeginning" data-provider="createBeginnings" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[      {]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsBeginning -->
+        <test-method signature="testIsEndOfLastEntry(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testIsEndOfLastEntry" data-provider="createEndOfLastEntry" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ }]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEndOfLastEntry -->
+        <test-method signature="testIsBeginning(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testIsBeginning" data-provider="createBeginnings" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsBeginning -->
+        <test-method signature="testIsEndOfLastEntry(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testIsEndOfLastEntry" data-provider="createEndOfLastEntry" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEndOfLastEntry -->
+        <test-method signature="testIsEndOfLastEntry(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testIsEndOfLastEntry" data-provider="createEndOfLastEntry" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[      }]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEndOfLastEntry -->
+        <test-method signature="testIsEndOfLastEntry(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testIsEndOfLastEntry" data-provider="createEndOfLastEntry" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEndOfLastEntry -->
+        <test-method signature="testIsField(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testIsField" data-provider="createFields" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["name": "Alex"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsField -->
+        <test-method signature="testIsField(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testIsField" data-provider="createFields" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ "name": "G"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsField -->
+        <test-method signature="testIsField(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testIsField" data-provider="createFields" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["age": 80]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsField -->
+        <test-method signature="testIsField(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testIsField" data-provider="createFields" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["age": 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsField -->
+        <test-method signature="testIsField(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testIsField" data-provider="createFields" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["age": 3,]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsField -->
+        <test-method signature="testIsField(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testIsField" data-provider="createFields" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["name": "Alex",]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsField -->
+        <test-method signature="testIsId(java.lang.String, int)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testIsId" data-provider="createId" finished-at="2024-07-24T19:16:07Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ "id": 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsId -->
+        <test-method signature="testIsId(java.lang.String, int)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testIsId" data-provider="createId" finished-at="2024-07-24T19:16:07Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["id": 1024,]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsId -->
+        <test-method signature="testIsId(java.lang.String, int)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testIsId" data-provider="createId" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["id": 6,]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsId -->
+        <test-method signature="testIsValidInput(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testIsValidInput" data-provider="createValidInput" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name Richard, surname Johnson]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsValidInput -->
+        <test-method signature="testIsValidInput(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testIsValidInput" data-provider="createValidInput" finished-at="2024-07-24T19:16:07Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[age 20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsValidInput -->
+        <test-method signature="testIsId(java.lang.String, int)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testIsId" data-provider="createId" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["id": 128]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[128]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsId -->
+        <test-method signature="testIsValidInput(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testIsValidInput" data-provider="createValidInput" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name Richard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsValidInput -->
+        <test-method signature="testIsValidInput(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testIsValidInput" data-provider="createValidInput" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name Richard, surname Johnson, age 20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsValidInput -->
+        <test-method signature="testParseId(java.lang.String, int)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testParseId" data-provider="createId" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ "id": 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParseId -->
+        <test-method signature="testParseId(java.lang.String, int)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testParseId" data-provider="createId" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["id": 1024,]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParseId -->
+        <test-method signature="testParseId(java.lang.String, int)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testParseId" data-provider="createId" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["id": 6,]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParseId -->
+        <test-method signature="testIsValidInput(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testIsValidInput" data-provider="createValidInput" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name Richard, surname Johnson, avgGrade 4.5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsValidInput -->
+        <test-method signature="testParseId(java.lang.String, int)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testParseId" data-provider="createId" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["id": 128]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[128]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParseId -->
+        <test-method signature="testWriteNewField(int, java.lang.String, java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testWriteNewField" data-provider="createInfoPairs" finished-at="2024-07-24T19:16:07Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Name Richard]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA["name": "Richard",]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWriteNewField -->
+        <test-method signature="testWriteNewField(int, java.lang.String, java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testWriteNewField" data-provider="createInfoPairs" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Age 19]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA["age": 19,]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWriteNewField -->
+        <test-method signature="testWriteNewLine(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testWriteNewLine" data-provider="createNewLine" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ "id": 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWriteNewLine -->
+        <test-method signature="testWriteNewField(int, java.lang.String, java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testWriteNewField" data-provider="createInfoPairs" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Age 19]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA["age": 19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWriteNewField -->
+        <test-method signature="testWriteNewField(int, java.lang.String, java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testWriteNewField" data-provider="createInfoPairs" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[name Richard]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA["name": "Richard"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWriteNewField -->
+        <test-method signature="testWriteNewLine(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testWriteNewLine" data-provider="createNewLine" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[},]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWriteNewLine -->
+        <test-method signature="testWriteNewLine(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testWriteNewLine" data-provider="createNewLine" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["id": 1024,]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWriteNewLine -->
+        <test-method signature="testWriteNewLine(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testWriteNewLine" data-provider="createNewLine" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["name": "Alex",]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWriteNewLine -->
+        <test-method signature="testWriteNewLine(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testWriteNewLine" data-provider="createNewLine" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["age": 80]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWriteNewLine -->
+        <test-method signature="testWriteNewStudent(int, java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testWriteNewStudent" data-provider="createStudentInfo" finished-at="2024-07-24T19:16:07Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[name Richard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWriteNewStudent -->
+        <test-method signature="testWriteNewLine(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testWriteNewLine" data-provider="createNewLine" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWriteNewLine -->
+        <test-method signature="testWriteNewStudent(int, java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testWriteNewStudent" data-provider="createStudentInfo" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[name Eric, surname Jackson, age 20, grade 4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWriteNewStudent -->
+        <test-method signature="testisEndOfEntry(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testisEndOfEntry" data-provider="createEndOfEntry" finished-at="2024-07-24T19:16:07Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ },]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testisEndOfEntry -->
+        <test-method signature="testisEndOfEntry(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testisEndOfEntry" data-provider="createEndOfEntry" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[},]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testisEndOfEntry -->
+        <test-method signature="testisEndOfEntry(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testisEndOfEntry" data-provider="createEndOfEntry" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[      },]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testisEndOfEntry -->
+        <test-method signature="testisEndOfEntry(java.lang.String)[pri:0, instance:TextEditorTests@13805618]" started-at="2024-07-24T19:16:07Z" name="testisEndOfEntry" data-provider="createEndOfEntry" finished-at="2024-07-24T19:16:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[},]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testisEndOfEntry -->
+      </class> <!-- TextEditorTests -->
+      <class name="ClientTests">
+        <test-method is-config="true" signature="getConnData(java.lang.String, java.lang.String)[pri:0, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:07Z" name="getConnData" finished-at="2024-07-24T19:16:07Z" duration-ms="63" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser 1234 0.0.0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testStudents.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getConnData -->
+        <test-method is-config="true" signature="readSourceFile()[pri:0, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:07Z" name="readSourceFile" finished-at="2024-07-24T19:16:07Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readSourceFile -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:07Z" name="restoreFile" finished-at="2024-07-24T19:16:07Z" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testGetSortedListOfStudents()[pri:1, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:07Z" name="testGetSortedListOfStudents" finished-at="2024-07-24T19:16:07Z" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSortedListOfStudents -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:08Z" name="restoreFile" finished-at="2024-07-24T19:16:08Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testGetStudentInfo(java.lang.String, java.lang.String)[pri:2, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:08Z" name="testGetStudentInfo" data-provider="createId" finished-at="2024-07-24T19:16:08Z" duration-ms="66" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[id: 1, name: Rosa, surname: Davidson, age: 19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetStudentInfo -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:08Z" name="restoreFile" finished-at="2024-07-24T19:16:08Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testGetStudentInfo(java.lang.String, java.lang.String)[pri:2, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:08Z" name="testGetStudentInfo" data-provider="createId" finished-at="2024-07-24T19:16:08Z" duration-ms="63" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[id: 2, name: Mike, surname: Pankraz, age: 18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetStudentInfo -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:08Z" name="restoreFile" finished-at="2024-07-24T19:16:08Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testGetStudentInfo(java.lang.String, java.lang.String)[pri:2, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:08Z" name="testGetStudentInfo" data-provider="createId" finished-at="2024-07-24T19:16:08Z" duration-ms="65" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[id: 3, name: Margarita, surname: Harvey, age: 20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetStudentInfo -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:08Z" name="restoreFile" finished-at="2024-07-24T19:16:08Z" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testGetStudentInfo(java.lang.String, java.lang.String)[pri:2, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:08Z" name="testGetStudentInfo" data-provider="createId" finished-at="2024-07-24T19:16:08Z" duration-ms="63" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[id: 4, name: Nikolas, surname: McAdams, age: 20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetStudentInfo -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:08Z" name="restoreFile" finished-at="2024-07-24T19:16:08Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testGetStudentInfo(java.lang.String, java.lang.String)[pri:2, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:08Z" name="testGetStudentInfo" data-provider="createId" finished-at="2024-07-24T19:16:09Z" duration-ms="62" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[id: 5, name: Boris, surname: Fedorov, age: 19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetStudentInfo -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:09Z" name="restoreFile" finished-at="2024-07-24T19:16:09Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testGetStudentInfo(java.lang.String, java.lang.String)[pri:2, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:09Z" name="testGetStudentInfo" data-provider="createId" finished-at="2024-07-24T19:16:09Z" duration-ms="63" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[No information found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetStudentInfo -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:11Z" name="restoreFile" finished-at="2024-07-24T19:16:11Z" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testAddStudent(java.lang.String, java.lang.String)[pri:3, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:11Z" name="testAddStudent" data-provider="createStudentInfo" finished-at="2024-07-24T19:16:11Z" duration-ms="252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name Rosa, surname Davidson, age 19]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[id: 6, name: Rosa, surname: Davidson, age: 19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddStudent -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:11Z" name="restoreFile" finished-at="2024-07-24T19:16:11Z" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testAddStudent(java.lang.String, java.lang.String)[pri:3, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:11Z" name="testAddStudent" data-provider="createStudentInfo" finished-at="2024-07-24T19:16:11Z" duration-ms="247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name Mike, surname Pankraz, age 18]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[id: 6, name: Mike, surname: Pankraz, age: 18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddStudent -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:11Z" name="restoreFile" finished-at="2024-07-24T19:16:11Z" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testAddStudent(java.lang.String, java.lang.String)[pri:3, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:11Z" name="testAddStudent" data-provider="createStudentInfo" finished-at="2024-07-24T19:16:12Z" duration-ms="250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name Margarita, surname Harvey, age 20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[id: 6, name: Margarita, surname: Harvey, age: 20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddStudent -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:12Z" name="restoreFile" finished-at="2024-07-24T19:16:12Z" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testAddStudent(java.lang.String, java.lang.String)[pri:3, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:12Z" name="testAddStudent" data-provider="createStudentInfo" finished-at="2024-07-24T19:16:12Z" duration-ms="257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name Nikolas, surname McAdams, age 20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[id: 6, name: Nikolas, surname: McAdams, age: 20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddStudent -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:12Z" name="restoreFile" finished-at="2024-07-24T19:16:12Z" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testAddStudent(java.lang.String, java.lang.String)[pri:3, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:12Z" name="testAddStudent" data-provider="createStudentInfo" finished-at="2024-07-24T19:16:12Z" duration-ms="248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name Boris, surname Fedorov, age 19]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[id: 6, name: Boris, surname: Fedorov, age: 19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddStudent -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:12Z" name="restoreFile" finished-at="2024-07-24T19:16:12Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testDeleteStudent(java.lang.String, java.lang.String)[pri:4, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:12Z" name="testDeleteStudent" data-provider="createIdToDelete" finished-at="2024-07-24T19:16:13Z" duration-ms="285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[id: 1, name: Mike, surname: Pankraz, age: 18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteStudent -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:13Z" name="restoreFile" finished-at="2024-07-24T19:16:13Z" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testDeleteStudent(java.lang.String, java.lang.String)[pri:4, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:13Z" name="testDeleteStudent" data-provider="createIdToDelete" finished-at="2024-07-24T19:16:13Z" duration-ms="248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[id: 2, name: Margarita, surname: Harvey, age: 20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteStudent -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:13Z" name="restoreFile" finished-at="2024-07-24T19:16:13Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testDeleteStudent(java.lang.String, java.lang.String)[pri:4, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:13Z" name="testDeleteStudent" data-provider="createIdToDelete" finished-at="2024-07-24T19:16:13Z" duration-ms="258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[id: 3, name: Nikolas, surname: McAdams, age: 20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteStudent -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:13Z" name="restoreFile" finished-at="2024-07-24T19:16:13Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testDeleteStudent(java.lang.String, java.lang.String)[pri:4, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:13Z" name="testDeleteStudent" data-provider="createIdToDelete" finished-at="2024-07-24T19:16:13Z" duration-ms="248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[id: 4, name: Boris, surname: Fedorov, age: 19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteStudent -->
+        <test-method is-config="true" signature="restoreFile()[pri:0, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:13Z" name="restoreFile" finished-at="2024-07-24T19:16:14Z" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFile -->
+        <test-method signature="testDeleteStudent(java.lang.String, java.lang.String)[pri:4, instance:ClientTests@4566e5bd]" started-at="2024-07-24T19:16:14Z" name="testDeleteStudent" data-provider="createIdToDelete" finished-at="2024-07-24T19:16:14Z" duration-ms="255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[No information found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteStudent -->
+      </class> <!-- ClientTests -->
+    </test> <!-- /Users/nikitadyuckov/Documents/GitHub/studentsFTPTests/ -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

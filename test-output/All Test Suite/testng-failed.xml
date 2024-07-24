@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="filename" value="testStudents.json"/>
+  <parameter name="loginInfo" value="TestUser 1234 0.0.0.0"/>
+  <test thread-count="5" name="/Users/nikitadyuckov/Documents/GitHub/studentsFTPTests/(failed)">
+    <classes>
+      <class name="ConnectionTests">
+        <methods>
+          <include name="testSetConnection"/>
+          <include name="testWriter"/>
+          <include name="testReader"/>
+        </methods>
+      </class> <!-- ConnectionTests -->
+      <class name="EmptyFileClientTests">
+        <methods>
+          <include name="testGetSortedListOfStudents"/>
+          <include name="restoreFile"/>
+          <include name="testAddStudent"/>
+          <include name="testGetStudentInfo"/>
+          <include name="getConnData"/>
+        </methods>
+      </class> <!-- EmptyFileClientTests -->
+      <class name="ClientTests">
+        <methods>
+          <include name="getConnData"/>
+          <include name="testGetStudentInfo"/>
+          <include name="restoreFile"/>
+          <include name="readSourceFile"/>
+          <include name="testGetSortedListOfStudents"/>
+          <include name="testAddStudent"/>
+          <include name="testDeleteStudent"/>
+        </methods>
+      </class> <!-- ClientTests -->
+    </classes>
+  </test> <!-- /Users/nikitadyuckov/Documents/GitHub/studentsFTPTests/(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
