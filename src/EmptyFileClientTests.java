@@ -11,7 +11,7 @@ public class EmptyFileClientTests {
 
     @BeforeClass()
     @Parameters({"loginInfo", "filename"})
-    public void getConnData(String loginInfo, String filename) {
+    public void getConnData(String loginInfo, String filename) throws IOException {
         connectionHandler = new ConnectionHandler(loginInfo, filename);
         client = new ConsoleClient(connectionHandler);
     }
@@ -53,7 +53,7 @@ public class EmptyFileClientTests {
 
     @Test(dataProvider = "createId", priority = 2)
     public void testGetStudentInfo(String id) throws IOException {
-        Assert.assertEquals(client.getStudentInfo(id), "No information found");
+        Assert.assertEquals(client.getStudentInfo(id), "Информация не найдена");
     }
 
     @Test(dataProvider = "createStudentInfo", priority = 3)

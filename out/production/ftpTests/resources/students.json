@@ -1,0 +1,34 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Rosa",
+      "surname": "Davidson",
+      "age": 19
+    },
+    {
+      "id": 2,
+      "name": "Mike",
+      "surname": "Pankraz",
+      "age": 18
+    },
+    {
+      "id": 3,
+      "name": "Margarita",
+      "surname": "Harvey",
+      "age": 20
+    },
+    {
+      "id": 4,
+      "name": "Nikolas",
+      "surname": "McAdams",
+      "age": 20
+    },
+    {
+      "id": 5,
+      "name": "Boris",
+      "surname": "Fedorov",
+      "age": 19
+    }
+  ]
+}

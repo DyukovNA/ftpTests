@@ -26,7 +26,7 @@ public class ClientTests {
 
     @BeforeClass()
     @Parameters({"loginInfo", "filename"})
-    public void getConnData(String loginInfo, String filename) {
+    public void getConnData(String loginInfo, String filename) throws IOException {
         connectionHandler = new ConnectionHandler(loginInfo, filename);
         client = new ConsoleClient(connectionHandler);
     }
@@ -46,7 +46,7 @@ public class ClientTests {
                 {"3", "id: 3, name: Margarita, surname: Harvey, age: 20"},
                 {"4", "id: 4, name: Nikolas, surname: McAdams, age: 20"},
                 {"5", "id: 5, name: Boris, surname: Fedorov, age: 19"},
-                {"6", "No information found"}
+                {"6", "Информация не найдена"}
         };
     }
 
@@ -68,7 +68,7 @@ public class ClientTests {
                 {"2", "id: 2, name: Margarita, surname: Harvey, age: 20"},
                 {"3", "id: 3, name: Nikolas, surname: McAdams, age: 20"},
                 {"4", "id: 4, name: Boris, surname: Fedorov, age: 19"},
-                {"5", "No information found"}
+                {"5", "Информация не найдена"}
         };
     }
 

@@ -28,7 +28,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../InfoTecs/out/artifacts/InfoTecs_jar/client.jar!/" />
+          <root url="jar://$MODULE_DIR$/../InfoTecs/out/artifacts/InfoTecs_jar/InfoTecs.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
